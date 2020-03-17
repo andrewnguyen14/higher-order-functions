@@ -65,3 +65,14 @@ const ages = [12, 11, 33, 12, 44, 65, 33, 23, 15, 56, 45, 65, 87, 78];
 //   company => company.end - company.start >= 10
 // );
 // console.log(lastedTenYears);
+
+// ============== Map ==============
+// (Creates new array from any current array)
+
+//Create array of company names
+const companyNames = companies.map(function(company) {
+  return company.name;
+});
+console.log(companyNames);
+
+// 17:00
