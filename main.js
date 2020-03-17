@@ -13,17 +13,17 @@ const companies = [
 
 const ages = [12, 11, 33, 12, 44, 65, 33, 23, 15, 56, 45, 65, 87, 78];
 
-// ==== For Loop ====
+// ============== For Loop ==============
 // for (let i = 0; i < companies.length; i++) {
 //   console.log(companies[i]);
 // }
 
-// ==== For Each ====
-companies.forEach(company => {
-  console.log(company.name);
-});
+// ============== For Each ===============
+// companies.forEach(company => {
+//   console.log(company.name);
+// });
 
-// ==== Filter ====
+// ============== Filter ==============
 
 // let canDrink = [];
 
@@ -39,8 +39,8 @@ companies.forEach(company => {
 //   }
 // });
 
-const canDrink = ages.filter(age => age >= 21);
-console.log(canDrink);
+// const canDrink = ages.filter(age => age >= 21);
+// console.log(canDrink);
 
 // const retailCompanies = companies.filter(company => {
 //   if (company.category === "retail") {
@@ -49,15 +49,19 @@ console.log(canDrink);
 // });
 
 // Companies with retail category
-const retailCompanies = companies.filter(
-  company => company.category === "retail"
-);
-console.log(retailCompanies);
+// const retailCompanies = companies.filter(
+//   company => company.category === "retail"
+// );
+// console.log(retailCompanies);
 
 //Companies from the 80s
-const eightiesCompanies = companies.filter(
-  company => company.start >= 1980 && company.start < 1990
-);
-console.log(eightiesCompanies);
+// const eightiesCompanies = companies.filter(
+//   company => company.start >= 1980 && company.start < 1990
+// );
+// console.log(eightiesCompanies);
 
 //Companies that lasted at least 10 years
+// const lastedTenYears = companies.filter(
+//   company => company.end - company.start >= 10
+// );
+// console.log(lastedTenYears);
